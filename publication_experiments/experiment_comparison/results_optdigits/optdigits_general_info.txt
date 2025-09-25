@@ -1,0 +1,107 @@
+Running experiments for dataset: optdigits
+Parameters:
+# n_experiences: 3
+# n_seeds_exp: 25
+# n_blocks_per_experience: 13
+# n_trees_progression: [100]
+# n_start_trees: 100
+# test_ratio: 0.2
+# n_seeds_shap: 30
+# n_seeds_worst_best: 30
+# remove_k_worst_best: 2
+Number of samples: 5216, Number of features: 64
+Original label distribution: (array([False,  True]), array([5066,  150]))
+Mapped labels: normal=False→0, anomaly=True→1
+Final label distribution: (array([0, 1]), array([5066,  150]))
+One-shot Isolation Forest AP score: 0.0562
+Feature ranking based on SHAP values:
+36    0.193199
+28    0.140627
+30    0.130887
+33    0.123036
+41    0.113736
+38    0.096374
+25    0.089211
+27    0.086980
+35    0.084997
+22    0.073116
+42    0.066818
+49    0.063195
+4     0.057499
+14    0.053104
+62    0.052869
+17    0.051815
+46    0.051118
+50    0.048713
+9     0.048592
+6     0.047870
+60    0.047122
+1     0.041465
+54    0.040322
+44    0.040058
+59    0.039166
+19    0.039081
+3     0.038821
+37    0.037851
+12    0.037200
+51    0.036386
+52    0.035986
+11    0.035948
+18    0.035779
+34    0.035410
+57    0.034892
+45    0.034748
+58    0.034364
+10    0.034193
+21    0.033794
+61    0.032846
+53    0.032411
+20    0.031908
+13    0.031862
+2     0.030508
+29    0.030387
+26    0.030319
+43    0.028312
+5     0.027971
+55    0.021278
+63    0.020438
+15    0.014588
+7     0.012591
+23    0.010791
+47    0.007839
+40    0.006502
+48    0.004812
+31    0.001793
+16    0.001784
+8     0.001661
+24    0.000927
+32    0.000889
+56    0.000291
+0     0.000000
+39    0.000000
+AP difference after removing 2 best and worst features: mean=0.0141, std=0.0142
+Running experiment with n_new_trees=100 and seed=5970...
+Running experiment with n_new_trees=100 and seed=8339...
+Running experiment with n_new_trees=100 and seed=8288...
+Running experiment with n_new_trees=100 and seed=1863...
+Running experiment with n_new_trees=100 and seed=449...
+Running experiment with n_new_trees=100 and seed=4813...
+Running experiment with n_new_trees=100 and seed=8657...
+Running experiment with n_new_trees=100 and seed=7527...
+Running experiment with n_new_trees=100 and seed=2329...
+Running experiment with n_new_trees=100 and seed=9039...
+Running experiment with n_new_trees=100 and seed=9050...
+Running experiment with n_new_trees=100 and seed=2665...
+Running experiment with n_new_trees=100 and seed=8805...
+Running experiment with n_new_trees=100 and seed=7792...
+Running experiment with n_new_trees=100 and seed=2153...
+Running experiment with n_new_trees=100 and seed=4429...
+Running experiment with n_new_trees=100 and seed=9865...
+Running experiment with n_new_trees=100 and seed=221...
+Running experiment with n_new_trees=100 and seed=3571...
+Running experiment with n_new_trees=100 and seed=8470...
+Running experiment with n_new_trees=100 and seed=2862...
+Running experiment with n_new_trees=100 and seed=1279...
+Running experiment with n_new_trees=100 and seed=2793...
+Running experiment with n_new_trees=100 and seed=362...
+Running experiment with n_new_trees=100 and seed=4469...
