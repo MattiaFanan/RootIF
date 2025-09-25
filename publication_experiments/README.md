@@ -20,7 +20,7 @@ The experiments notebook includes a safeguard to prevent overwriting results: it
 # Additional notebooks
 - `average_all_seeds.ipynb` averages the results of the comparisons fo all seeds.
   - `plot_average.ipynb` plots the publication comparison figures.
-  - `compute_rwp.ipynb` computes the Resouce-Weighted metric for the comparison. 
+  - `compute_rwp.ipynb` computes the Resouce-Weighted Performance (RWP) metric for the comparison. 
     - `generate_table.ipynb` generates the publication RWP comparison table.
     - `generate_table_ablation.ipynb` generates the table with the RWP increment from each component as in the publication.
 
