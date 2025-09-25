@@ -16,3 +16,12 @@ Run `python main.py` from inside each experiment folder (so the current working 
 Each dataset folder contains a `*_seeds.txt` file listing all seeds used in the publication. Currently, there is no automatic loader for these seeds, so you must load them manually in your code.
 
 The experiments notebook includes a safeguard to prevent overwriting results: it checks for the existence of the folder `results_namedataset` and raises an exception if it already exists.
+
+# Additional notebooks
+- `average_all_seeds.ipynb` averages the results of the comparisons fo all seeds.
+-- `plot_average.ipynb` plots the publication comparison figures.
+-- `compute_rwp.ipynb` computes the Resouce-Weighted metric for the comparison. 
+--- `generate_table.ipynb` generates the publication RWP comparison table.
+--- `generate_table_ablation.ipynb` generates the table with the RWP increment from each component as in the publication.
+
+- `generate_table_remove2wb.ipynb` generates the table with teh Average Precision difference between removing the two best and two worst features in TreeSHAP order as in the pubblication.
